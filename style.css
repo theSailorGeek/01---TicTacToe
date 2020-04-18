@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+    }
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#frame {
+    width: 600px;
+    max-width: 600px;
+    border-style: invisible;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.field {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+#reset {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+input[type=submit] {
+    width: 600px;
+    background-color: brown;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input:hover {
+    background-color: crimson;
+}
