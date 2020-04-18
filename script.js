@@ -23,9 +23,16 @@ function checkwinner() {
     for (combo in winners){
         //alert(x);   
        // alert(document.getElementById(winners[combo][0]).innerHTML);
-        if (document.getElementById(winners[combo][0]) == x) {
+        if (document.getElementById(winners[combo][0]).innerHTML == x &&
+            document.getElementById(winners[combo][1]).innerHTML == x &&
+            document.getElementById(winners[combo][2]).innerHTML == x) {
             alert("We have a Winner!")
         }
+        else if (document.getElementById(winners[combo][0]).innerHTML == o &&
+                 document.getElementById(winners[combo][1]).innerHTML == o &&
+                 document.getElementById(winners[combo][2]).innerHTML == o) {
+        alert("We have a Winner!")
+    }
     }
 }
 
