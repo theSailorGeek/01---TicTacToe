@@ -21,8 +21,6 @@ function reset() {
 }
 function checkwinner() {
     for (combo in winners){
-        //alert(x);   
-       // alert(document.getElementById(winners[combo][0]).innerHTML);
         if (document.getElementById(winners[combo][0]).innerHTML == x &&
             document.getElementById(winners[combo][1]).innerHTML == x &&
             document.getElementById(winners[combo][2]).innerHTML == x) {
